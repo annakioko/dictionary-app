@@ -5,9 +5,9 @@ const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
 
 btn.addEventListener("click", () => {
-  let inputWord = document.getElementById("inp-word").value; // Corrected variable name
-  fetch(`${url}${inputWord}`) // Corrected variable name
-    .then((response) => response.json()) // Added parentheses
+  let inputWord = document.getElementById("inp-word").value; 
+  fetch(`${url}${inputWord}`) 
+    .then((response) => response.json()) 
     .then((data) => {
       console.log(data);
       result.innerHTML = `
@@ -34,6 +34,6 @@ btn.addEventListener("click", () => {
     });
 });
 
-function playSound() {
+const playSound = () => {
   sound.play();
 }
