@@ -47,6 +47,10 @@ body {
     border-radius: 5px;
 }
 
+.search-box button:hover {
+    transform: scale(1.0);
+}
+
 .result {
     position: relative;
 }
