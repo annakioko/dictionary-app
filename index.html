@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <audio id="sound"></audio>
+    <div class="container">
+        <div class="search-box">
+            <input type="text"
+            placeholder="Enter the word here...."
+            id="inp-word"
+            />
+            <button id ="search-btn">Search</button>
+        </div>
+        <div class="result">
+            <div class="Word">
+                <h3>Sample</h3>
+                <button>
+                 <i class="fa fa-volume-up"></i>
+                </button>
+            </div>
+            <div class="details">
+                <p>pos</p>
+                <p>/sample/</p>
+            </div>
+            <p class="word-meaning">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Iste tempora dicta dolor atque cumque pariatur sapiente excepturi, 
+                eaque debitis ipsum soluta laboriosam amet, recusandae architecto. 
+                Nam, vel. Voluptates, porro eius?
+            </p>
+            <p class="word-example">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Molestiae vitae perspiciatis consectetur assumenda exercitationem illo architecto, 
+                quis, ducimus, magnam magni autem nobis! Commodi, fugit ea veniam impedit accusantium 
+                quos consectetur?
+            </p>
+        </div>
+    </div>
+
+    <script src="src.js"></script>
+</body>
+</html>
